@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>김민정의 多事多難: Motion Graphic</title>
+    <style>
+        @font-face {
+            font-family: 'SUITE-Regular';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+            font-weight: 100;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Giants-Inline';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Inline.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            background-image: url(last/istockphoto-838296134-612x612.jpg);
+            margin: 100px;
+        }
+        h1{
+            font-family: 'Giants-Inline';
+            font-size: 50px;
+        }
+        h2{
+            font-family: 'SUITE-Regular';
+            writing-mode: vertical-lr;
+            font-size: 40px;
+            color: black;
+            margin: 50px 0px 50px 20px;
+            font-weight: 100;
+            text-decoration: none;
+        }
+        h3{
+            font-family: 'SUITE-Regular';
+            writing-mode: vertical-lr;
+            font-size: 15px;
+            margin-top: 60px;
+            color: black;
+            font-weight: 100;
+        }
+        section{
+            text-align: center;
+        }
+        section h3{
+            color: rgb(3, 151, 77);
+            font-size: 30px;
+        }
+        #content1 ul{
+            display: flex;
+            list-style: none;
+            padding: 0px;
+            margin-top: 100px;
+        }
+        #content1{
+            padding: 80px;
+        }
+        #content1 li{
+            border-right: solid 1px gray;
+            padding: 50px;
+        }
+        #content1 li:last-child{
+            border: none;
+        }
+        #content1 dd{
+            margin: 0px;
+        }
+        #content2 ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;/*유연-줄바꿈: 줄바꿈 하기 */
+            list-style: none;
+            padding: 0px;
+            margin-top: 100px;
+        }
+        #content2 li{
+            width: 25%;
+        }
+        #content2 li img{
+            width: 100%;/*들어갈수있는 공간의 25% */
+            display: block;
+        }
+        #wrap{
+                display: flex;
+            }
+        .box1{
+            position: relative;
+            top:-400px;
+        }
+        .h1{
+            font-size: 80px;
+            color: blue;
+        }
+        nav a{
+            padding: 40px;
+            font-family: 'SUITE-Regular';
+            font-weight: 900;
+        }
+        .img1{
+            animation: rotate_image 6s linear infinite;
+            transform-origin: 50% 50%;
+            position: absolute;
+            right: 70px;
+            top: 260px;
+            pointer-events: none;
+        }
+        .img2{
+            animation: rotate_image2 6s linear infinite;
+            transform-origin: 50% 50%;
+            position: absolute;
+            left: 40px;
+            top: 800px;
+            pointer-events: none;
+        }
+        .img3{
+            animation: rotate_image 6s linear infinite;
+            transform-origin: 50% 50%;
+            position: absolute;
+            bottom: 900px;
+            right: 300px;
+            pointer-events: none;
+        }
+        .img4{
+            animation: rotate_image2 6s linear infinite;
+            transform-origin: 50% 50%;
+            position: absolute;
+            left: 30px;
+            bottom: 100px;
+            pointer-events: none;
+        }
+        footer {
+            position: relative;
+            padding-top: 00px;
+        }
+        a:link {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:visited {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:hover {
+            color: hotpink;
+            text-decoration: none;
+        }
+        a:active {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        @keyframes rotate_image{
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes rotate_image2{
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+    <body>
+        <header>
+                <div id="wrap">
+                <h2><a href="last.html">김민정의 다사다난</a></h2>
+                <h3>2023 포트폴리오 사이트</h3>
+                <nav>
+                    <a href="lastsub1.html">Content Design</a>
+                    <a href="lastsub2.html">Motion Graphic</a>
+                    <a href="lastsub3.html">3D Design</a>
+                    <a href="lastsub4.html">About Me</a>
+                    <a href="lastsub5.html">Midterm</a>
+                    <a href="index.html">index</a>
+                </nav>
+                </header>
+            <div class="box1">
+                    <div class="img1"><img src="last/monster.png"></div>
+                    <div class="img2"><img src="last/monster.png"></div>
+                    <div class="img3"><img src="last/tat1.png"></div>
+                    <div class="img4"><img src="last/tat2.png"></div>
+            <section>
+                <h1 class="h1">Motion Graphic</h1>
+                <p> After Effect 프로그램을 활용한 모션그래픽 수업.<br/>중간 직무수행능력평가에는 애니메이션을,<br/> 기말 직무수행능력평가에는 팀 과제를 진행 했습니다.</p>
+            </section><br/><br/><br/>
+        <section id="content2">
+            <h1>Unleash the Beast!</h1>
+            <p>지친 회사원은 에너지 드링크 몬스터를 마시며 내면의 괴물을 깨운다...</p>
+            <ul>
+                <li><img src="last/motion1.jpg"/></li>
+                <li><img src="last/motion2.jpg"/></li>
+                <li><img src="last/motion3.jpg"/></li>
+                <li><img src="last/motion4.jpg"/></li>
+            </ul>
+            <iframe width="1120" height="630" src="https://www.youtube.com/embed/ZoXggliPiXo?si=kN1WOICp3CHCC9XX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <br/><br/>
+        <section id="content2">
+            <h1>타투쉐어 광고</h1>
+            <p>몸에 새기는 예술 타투!<br/>좀 더 신중하고 좋은 정보를 얻고 싶지 않나요?<br/>타투쉐어를 사용하세요!</p>
+            <ul>
+                <li><img src="last/motion5.jpg"/></li>
+                <li><img src="last/motion6.jpg"/></li>
+                <li><img src="last/motion7.jpg"/></li>
+                <li><img src="last/motion8.jpg"/></li>
+            </ul>
+            <iframe width="1120" height="630" src="https://www.youtube.com/embed/LFmnABoZMU4?si=N3L7gDRXmErVFtET" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+       </div> 
+    </div>
+</div>
+<footer>
+    <p>(C) Web Publishing 22361014 MinJeong Kim</p>
+    <p>Email: talkingmin@naver.com</p>
+</footer>  
+    </body>
+</html>

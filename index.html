@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MinJeong</title>
+    <style>
+        @font-face {
+            font-family: 'PyeongChangPeace-Bold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+        }
+        h1{
+            font-size: 300px;
+            font-weight: 900;
+            position: absolute;
+        }
+        body {
+            font-family: 'PyeongChangPeace-Bold';
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #9f6cff;
+            overflow: hidden;
+        }
+        .slide-in-container{
+            overflow: hidden;
+            position: relative;
+            width: 50%;
+        }
+        .slide-in1{
+            font-family: 'PyeongChangPeace-Bold';
+            font-size: 50px;
+            font-weight: 900;
+            font-style: none;
+            text-align: center;
+            opacity: 100;
+            transform: translateX(-100%);
+            animation: slideInAnimation 1s ease-out 2s forwards;
+            background-color: black;
+        }
+        .slide-in2{
+            font-family: 'PyeongChangPeace-Bold';
+            font-size: 50px;
+            font-weight: 900;
+            font-style: none;
+            text-align: center;
+            opacity: 100;
+            transform: translateX(100%);
+            animation: slideInAnimation 1s ease-out 2s forwards;
+            background-color: black;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .moving-object {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 50%;
+            left: 0; /* 초기 위치 설정 */
+            transform: translate(0,0);
+            animation: moveBackAndForth 5s ease-in-out infinite, rotate_image 6s linear infinite;
+        }
+        .img1{
+            animation: rotate_image 6s linear infinite;
+            transform-origin: 50% 50%;
+            position: absolute;
+            right: 50px;
+            top: 100px;
+            pointer-events: none;
+        }
+        a:link {
+            color: #fce4ec;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #fce4ec;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+        a:active {
+            color: #fce4ec;
+            text-decoration: none;
+        }
+        .slide-in1:hover{
+            background-color:transparent;
+        }
+        .slide-in2:hover{
+            background-color:transparent;
+        }
+        @keyframes slideInAnimation {
+            to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        }
+        @keyframes moveBackAndForth {
+        0%, 100% {
+            transform: translate(0,100px);
+        }
+        15%{
+            transform: translate(100px,0px);
+        }
+        30%{
+            transform: translate(200px,100px);
+        }
+        45%{
+            transform: translate(300px,0px);
+        }
+        60%{
+            transform: translate(200px,100px);
+        }
+        75% {
+            transform: translate(100px,0px);
+        }
+        }
+        @keyframes rotate_image{
+        50% {
+            transform: rotate(45deg);
+        }
+        100%(
+            transform: rotate(-45deg);
+        )
+        }
+    </style>
+    </head>
+    <body>
+        <h1>MinJeong<br/>Ver.2023</h1>
+        <div class="slide-in-container">
+            <div class="slide-in1"><a href="index1.html">Midterm</a></div>
+            <div class="slide-in2"><a href="last.html">Finalterm</a></div>
+            <div class="slide-in1"><a href="layout1.html">Layout 1</a></div>
+            <div class="slide-in2"><a href="layout2.html">Layout 2</a></div>
+            <div class="slide-in1"><a href="layout3.html">Layout 3</a></div>
+        </div>
+    </body>
+</html>

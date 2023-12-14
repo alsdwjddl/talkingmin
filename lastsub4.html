@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>김민정의 多事多難: What's NEXT</title>
+    <style>
+        @font-face {
+            font-family: 'SUITE-Regular';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+            font-weight: 100;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Jeongnimsaji-R';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/Jeongnimsaji-R.woff2') format('woff2');
+            font-weight: lighter;
+            font-style: normal;
+        }
+        body{
+            background-image: url(last/istockphoto-838296134-612x612.jpg);
+            margin: 100px;
+        }
+        header{
+            position: absolute;
+        }
+        h1{
+            font-family: 'Jeongnimsaji-R';
+            font-size: 50px;
+            margin-top: 60px;
+            margin-left: 150px;
+            font-weight: 100;
+            color: rgb(89, 57, 32);;
+        }
+        h2{
+            font-family: 'SUITE-Regular';
+            writing-mode: vertical-lr;
+            font-size: 40px;
+            color: black;
+            margin: 50px 0px 50px 20px;
+            font-weight: 100;
+            text-decoration: none;
+        }
+        h3{
+            font-family: 'SUITE-Regular';
+            writing-mode: vertical-lr;
+            font-size: 15px;
+            margin-top: 60px;
+            color: black;
+            font-weight: 100;
+        }
+        #wrap{
+            display: flex;
+        }
+        nav a{
+            padding: 40px;
+            font-family: 'SUITE-Regular';
+            font-weight: 900;
+        }
+        .p2{
+            text-align: right;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+            margin-left: 730px;
+            background-color: #dddab9;
+            width: 800px;
+        }
+        .box1{
+            padding-top: 50px;
+        }
+        .text1{
+            font-family: 'SUITE-Regular';
+            font-size: 40px;
+            position: relative;
+            margin-left: 150px;
+            margin-bottom: 10px;
+            z-index: 1;
+        }
+        .immg{
+            width: 500px;
+            margin-left: 150px;
+            margin-top: 10px;
+        }
+        .img1{
+            animation: rotate_image 6s linear infinite;
+            transform-origin: 50% 50%;
+            position: absolute;
+            right: 150px;
+            pointer-events: none;
+            top: 1500px;
+        }
+        .img2{
+            animation: rotate_image 6s linear infinite;
+            transform-origin: 50% 50%;
+            position: absolute;
+            right: 500px;
+            top: 200px;
+            pointer-events: none;
+        }
+        .img3{
+            animation: rotate_image 6s linear infinite;
+            transform-origin: 50% 50%;
+            position: absolute;
+            top: 2300px;
+            left: 700px;
+            pointer-events: none;
+        }
+        .img4{
+            animation: rotate_image 6s linear infinite;
+            transform-origin: 50% 50%;
+            position: absolute;
+            left: 50px;
+            bottom: -450px;
+            pointer-events: none;
+        }
+        .typed-text {
+            font-family: 'SUITE-Regular';
+            margin-top: 20px;
+            margin-left: 150px;
+            margin-bottom: 5px;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 2px solid #fff;
+            font-size: 30px;
+            font-weight: bold;
+            animation: typingAnimation 3s steps(40) forwards;
+        }
+        section{
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        .pp{
+            text-align: left;
+            margin-left: 150px;
+            background-color: #dddab9;
+            width: 730px;
+        }
+        .long_line{
+            border-top: dashed 2px rgb(89, 57, 32);
+            margin-left: 150px;
+            width: 1200px;
+        }
+        a:link {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:visited {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:hover {
+            color: hotpink;
+            text-decoration: none;
+        }
+        a:active {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        @keyframes rotate_image{
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes typingAnimation {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+            }
+    </style>
+    <script>
+        const textElement = document.querySelector('.typed-text');
+        const textContent = textElement.textContent;
+        textElement.textContent = '';
+        for (let i = 0; i < textContent.length; i++) {
+        setTimeout(() => {
+        textElement.textContent += textContent[i];
+        }, i * 75);
+        }
+    </script>
+    </head>
+    <body>
+        <header>
+        <div id="wrap">
+            <h2><a href="last.html">김민정의 다사다난</a></h2>
+            <h3>2023 포트폴리오 사이트</h3>
+            <nav>
+                <a href="lastsub1.html">Content Design</a>
+                <a href="lastsub2.html">Motion Graphic</a>
+                <a href="lastsub3.html">3D Design</a>
+                <a href="lastsub4.html">About Me</a>
+                <a href="lastsub5.html">Midterm</a>
+                <a href="index.html">index</a>
+            </nav>
+        </div>
+            </header>
+                <div class="box1">
+                    <h1>About Me:2024</h1>
+                    <div class="typed-text">안녕하세요 2023년의 김민정 입니다.</div>
+                    <br/><p class="pp">사실 거창한 소개는 없고, 2024년을 바라보며 어떤 목표를 갖고 있는지에 대해 이야기 해볼까 합니다.</p>
+                    <br/>
+                    <div class="long_line"></div>
+                <section>
+                    <div class="text1">Plan 1: 독립 출판 해보기!</div>
+                    <img src="last/bkfr.jpg" class="immg">
+                    <p class="p2">학교를 다니며 독립 서적을 많이 접하게 되었습니다.<br/>독립 북페어와 서점을 다니며 여러 장르의 책을 접했고,<br/>자연스럽게 디자인 작업 관련 독립 출판을 하고 싶다는 작은 꿈을 가지게 되었습니다.</p>
+                </section>
+                <div class="long_line"></div>
+                <section>
+                    <div class="text1">Plan 2: 1일 1디자인 도전</div>
+                    <img src="last/pstr.jpg"class="immg">
+                    <p class="p2">디자인의 ㄷ조차 몰랐던 1학기 초와 다르게 2학기에 들어서며<br/>디자인의 배치와 조화에 대해 개인적인 생각을 담고, 여러가지 시도를 해보았습니다.<br/>다른 과제와 병행을 하며 디자인에 집중하기는 어려웠지만 이번 종강 후에 여러가지 시도를 해볼 계획 입니다.</p>
+                </section>
+                <div class="long_line"></div>
+                <section>
+                    <div class="text1">Plan 3: 게임 프로젝트 진행하기</div>
+                    <img src="last/prs.jpg"class="immg">
+                    <p class="p2">이번 학기에 좋은 기회를 통해 프랑스 파리에서 타 대학 학생들과 게임 개발 프로젝트에 참여하게 되었습니다.<br/>흔치 않은 기회가 온 만큼, 여러 경험을 하며 성실히 프로젝트를 진행해볼까 합니다.</p>
+                </section>
+                    <div id="content">
+                        <div class="img1"><img src="last/shape1.png"></div>
+                        <div class="img2"><img src="last/shape2.png"></div>
+                        <div class="img3"><img src="last/shape3.png"></div>
+                        <div class="img4"><img src="last/shape4.png"></div>
+                    </div>
+                </div>
+            <footer>
+                <p>(C) Web Publishing 22361014 MinJeong Kim</p>
+                <p>Email: talkingmin@naver.com</p>
+            </footer>
+    </body>
+</html>

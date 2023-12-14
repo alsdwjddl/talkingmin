@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>김민정의 多事多難: 포트폴리오</title>
+    <style>
+        @font-face {
+        font-family: 'SUITE-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+        font-weight: 100;
+        font-style: normal;
+        }
+        body{
+            background-image: url(last/istockphoto-838296134-612x612.jpg);
+            margin: 100px;
+        }
+        header{
+        position: absolute;
+        }
+        h2{
+            font-family: 'SUITE-Regular';
+            writing-mode: vertical-lr;
+            font-size: 40px;
+            color: black;
+            margin: 50px 0px 50px 20px;
+            font-weight: 100;
+            text-decoration: none;
+        }
+        h3{
+            font-family: 'SUITE-Regular';
+            writing-mode: vertical-lr;
+            font-size: 15px;
+            margin-top: 60px;
+            color: black;
+            font-weight: 100;
+        }
+        #wrap{
+            display: flex;
+        }
+        #content{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #imgDiv2 {
+            width: 45%;
+            height: 45%;
+            margin: 10px;
+            z-index: 1;
+        }
+        #imgDiv2 img{
+            width: 80%;
+            height: auto;
+            margin-left: 10px;
+            margin-top: 50px;
+        }
+        #imgDiv > #funny {
+            opacity: 0;
+            transition: opacity 1s;
+        }
+        #imgDiv:hover > #funny {
+            opacity: 1;
+        }
+        nav a{
+            padding: 40px;
+            font-family: 'SUITE-Regular';
+            font-weight: 900;
+        }
+        .box1{
+            width: 1700px;
+            height: 900px;
+            margin-left: 50px;
+        }
+        .img1{
+            animation: rotate_image 6s linear infinite;
+            transform-origin: 50% 50%;
+            position: absolute;
+            right: 100px;
+            top: 100px;
+            pointer-events: none;
+        }
+        .img2{
+            animation: rotate_image 6s linear infinite;
+            transform-origin: 50% 50%;
+            position: absolute;
+            left: 150px;
+            top: 300px;
+            pointer-events: none;
+        }
+        .img3{
+            animation: rotate_image 6s linear infinite;
+            transform-origin: 50% 50%;
+            position: absolute;
+            top: 700px;
+            right: 300px;
+            pointer-events: none;
+        }
+        .img4{
+            animation: rotate_image 6s linear infinite;
+            transform-origin: 50% 50%;
+            position: absolute;
+            left: 350px;
+            top: 980px;
+            pointer-events: none;
+        }
+        footer {
+            position: relative;
+            padding-top: 600px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:link {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:visited {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:hover {
+            color: hotpink;
+            text-decoration: none;
+        }
+        a:active {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        @keyframes scroll-left {
+            0% {transform: translateX(100%);}
+            100% {transform: translateX(-100%);}
+        }
+        @keyframes rotate_image{
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            <div id="wrap">
+            <h2><a href="last.html">김민정의 다사다난</a></h2>
+            <h3>2023 포트폴리오 사이트</h3>
+            <nav>
+                <a href="lastsub1.html">Content Design</a>
+                <a href="lastsub2.html">Motion Graphic</a>
+                <a href="lastsub3.html">3D Design</a>
+                <a href="lastsub4.html">About Me</a>
+                <a href="lastsub5.html">Midterm</a>
+                <a href="index.html">index</a>
+            </nav>
+            </div>
+        </header>
+
+            <div class="box1">
+                <div id="content">
+                    <div id="imgDiv2">
+                        <a href="lastsub1.html">
+                            <img src="last/Untitled-1-01.png"
+                            onmouseover="this.src='last/content.png'"
+                            onmouseout="this.src='last/Untitled-1-01.png'">
+                        </a>
+                    </div>
+                    <div id="imgDiv2">
+                        <a href="lastsub2.html">
+                            <img src="last/Untitled-1-02.png"
+                            onmouseover="this.src='last/motion.jpg'"
+                            onmouseout="this.src='last/Untitled-1-02.png'">
+                        </a>
+                    </div>
+                    <div id="imgDiv2">
+                        <a href="lastsub3.html">
+                            <img src="last/Untitled-1-03.png"
+                            onmouseover="this.src='last/3d.png'"
+                            onmouseout="this.src='last/Untitled-1-03.png'">
+                        </a>
+                    </div>
+                    <div id="imgDiv2">
+                        <a href="lastsub4.html">
+                            <img src="last/Untitled-1-04.png"
+                            onmouseover="this.src='last/next.png'"
+                            onmouseout="this.src='last/Untitled-1-04.png'">
+                        </a>
+                    </div>
+                    <div class="img1"><img src="last/shape1.png"></div>
+                    <div class="img2"><img src="last/shape2.png"></div>
+                    <div class="img3"><img src="last/shape3.png"></div>
+                    <div class="img4"><img src="last/shape4.png"></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>(C) Web Publishing 22361014 MinJeong Kim</p>
+            <p>Email: talkingmin@naver.com</p>
+        </footer> 
+    </body>    
+</html>
